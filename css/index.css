@@ -143,10 +143,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lobster';
+  font-family: 'Simonetta';
 }
 h1 {
-  font-family: 'Simonetta';
+  font-family: 'Lobster';
   font-size: 4rem;
 }
 h2 {
@@ -168,6 +168,71 @@ img {
   padding: 0 2%;
   background-color: #FFC300;
 }
-h1 {
-  color: red;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2em;
+  background-color: white;
+}
+header h1 {
+  color: #750E98;
+  text-decoration: underline dotted;
+}
+header nav {
+  text-decoration: none;
+}
+header nav a {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.4rem;
+}
+header .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .btn .btn1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+header .btn .btn1 button {
+  background-color: #750E98;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+header .btn .btn1 button:hover {
+  background-color: #FFC300;
+  color: 750E98;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header .btn .btn2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+header .btn .btn2 button {
+  background-color: #750E98;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+header .btn .btn2 button:hover {
+  background-color: #FFC300;
+  color: 750E98;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
