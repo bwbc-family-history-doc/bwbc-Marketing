@@ -128,8 +128,8 @@ table {
 }
 * {
   box-sizing: border-box;
-  padding: 0 4%;
-  margin: 0 4%;
+  padding: 0 6%;
+  margin: 0 6%;
   max-width: 100%;
 }
 html {
@@ -165,7 +165,7 @@ img {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 2%;
+  padding: 0 7%;
   background-color: #FFC300;
 }
 header {
@@ -173,7 +173,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 2em;
-  background-color: white;
+  background-color: whitesmoke;
 }
 header h1 {
   color: #750E98;
@@ -235,4 +235,58 @@ header .btn .btn2 button:hover {
   background-color: #FFC300;
   color: 750E98;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.top .stepsTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  padding-bottom: 1em;
+}
+.top .stepsTop h2 {
+  color: #750E98;
+  background-color: whitesmoke;
+  padding: 0 1em;
+}
+.top .stepsTop ol {
+  font-family: 'Abril Fatface';
+  font-size: 1.2rem;
+  background-color: whitesmoke;
+}
+.top .stepsTop ol li {
+  padding-left: 10px;
+  padding-bottom: 1em;
+}
+.top .stepsTop button {
+  background-color: #750E98;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.top .stepsTop button:hover {
+  background-color: #FFC300;
+  color: 750E98;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top .info {
+  color: whitesmoke;
+  width: 40%;
+  padding-left: 2em;
+  background-image: url(../imgs/bigfamily.jpg);
+  background-attachment: fixed;
+  background-size: 1500px 700px;
+  background-repeat: no-repeat;
+  opacity: 1.5;
 }

@@ -1,0 +1,46 @@
+.top{
+    .layout(center,center);
+    background-color: whitesmoke;
+
+    .stepsTop{
+        .layout(center,center);
+        flex-direction: column;
+        width: 40%;
+        padding-bottom: 1em;
+        h2{
+            color:@accent-color;
+            background-color: whitesmoke;
+            padding: 0 1em;
+        }//end h2
+
+
+        ol{
+            font-family: @plain;
+            font-size: 1.2rem;
+            background-color: whitesmoke;
+            li{
+                padding-left: 10px;
+                padding-bottom: 1em;
+            }//end of li
+
+        }//end of ol
+        button{
+            .custBtn();
+            
+        }//end of button
+
+
+    }//end of steps
+
+    .info{
+        color:whitesmoke;
+       width: 40%;
+        padding-left: 2em;
+        background-image: url(../imgs/bigfamily.jpg);
+        background-attachment: fixed;
+        background-size: 1500px 700px;
+        background-repeat: no-repeat;
+        
+        opacity: 1.5;
+    }//end of info
+}//end of top
