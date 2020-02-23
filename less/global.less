@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
-  }
+    padding: 0 4%;
+    margin: 0 4%;
+    width: 100%;
+      }
   
   html {
     font-size: 62.5%;
@@ -10,11 +13,12 @@
     font-family: 'Roboto', sans-serif;
   }
   
-  h1, h2, h3, h4, h5 {
-    font-family: 'Indie Flower', cursive;
+ h2, h3, h4, h5 {
+    font-family: @bold;
   }
-  
+    
   h1 {
+    font-family: @cursive;
     font-size: 4rem;
   }
   
@@ -23,11 +27,7 @@
     padding-bottom: 10px;
   }
   
-  h4 {
-    font-size: 2.5rem;
-    padding-bottom: 10px;
-  }
-  
+    
   p {
     line-height: 1.5;
     font-size: 1.6rem;
@@ -43,4 +43,5 @@
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
-  }  
+    padding: 0 8%;;
+    }  
