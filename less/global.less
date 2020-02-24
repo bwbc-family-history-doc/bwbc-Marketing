@@ -1,20 +1,24 @@
 * {
     box-sizing: border-box;
-  }
+    padding: 0 6%;
+    margin: 0 6%;
+    max-width: 100%;
+      }
   
   html {
     font-size: 62.5%;
   }
   
   html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: plain;
   }
   
-  h1, h2, h3, h4, h5 {
-    font-family: 'Indie Flower', cursive;
+ h2, h3, h4, h5 {
+    font-family: @bold;
   }
-  
+    
   h1 {
+    font-family: @cursive;
     font-size: 4rem;
   }
   
@@ -23,11 +27,7 @@
     padding-bottom: 10px;
   }
   
-  h4 {
-    font-size: 2.5rem;
-    padding-bottom: 10px;
-  }
-  
+    
   p {
     line-height: 1.5;
     font-size: 1.6rem;
@@ -40,7 +40,8 @@
   }
   
   .container {
-    max-width: 800px;
     width: 100%;
     margin: 0 auto;
-  }  
+    padding: 0 7%;
+    background-color: @background-color;
+    }  

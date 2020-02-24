@@ -1,0 +1,123 @@
+.top{
+    .layout(center,center);
+    background-image: url(../imgs/bigfamily.jpg);
+    background-attachment: fixed;
+    background-size: 1500px 700px;
+    background-repeat: no-repeat;
+
+    .stepsTop{
+        .layout(center,center);
+        flex-direction: column;
+        width: 40%;
+        padding-bottom: 1em;
+        width: 45%;
+
+        
+        h2{
+            color:whitesmoke;
+            padding-bottom: 1em;
+        }//end h2
+
+
+        ol{
+            font-family: @plain;
+            font-size: 1.2rem;
+            // background-color: whitesmoke;
+            color:whitesmoke;
+            li{
+                padding-left: 15px;
+                padding-bottom: 1em;
+                
+            }//end of li
+
+        }//end of ol
+        button{
+            .custBtn();
+            
+        }//end of button
+
+
+    }//end of steps
+
+    .info{
+        color:whitesmoke;
+       width: 40%;
+        padding-left: 2em;
+        
+     
+        
+        
+    }//end of info
+}//end of top
+
+.bottom{
+    background-color: whitesmoke;
+    .gp{
+        .layout(space-around,center);
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-bottom: 4px dotted whitesmoke;
+        
+    }//end of grandparent pics
+
+    p{
+        width:40%;
+    }
+
+    .info{
+        .layout(center,center);
+        padding-top: 1em;
+        
+    }
+
+    .stepsBottom{
+        .layout(center,center);
+        flex-direction: column;
+        width: 40%;
+        padding-bottom: 1em;
+        width: 45%;
+        
+
+        
+       
+
+
+        ol{
+            padding-left:1.3em;
+            font-family: @plain;
+            font-size: 1.2rem;
+            color:@accent-color;
+            li{
+                padding-left: 15px;
+                padding-bottom: 1em;
+                
+            }//end of li
+
+        }//end of ol
+        button{
+            .custBtn();
+            
+        }//end of button
+
+    }
+
+
+
+}//end of bottom
+
+footer{
+    .layout(space-between,center);
+    padding-top: 1em;
+      nav{
+        text-decoration: none;
+
+        a{
+            text-decoration: none;  
+            padding:1em;
+            font-size: 1.4rem;
+
+        }//ends a
+    }
+
+    
+}
