@@ -1,0 +1,61 @@
+header{
+    .layout(space-around,center);    
+    padding-bottom: 2em;
+    background-color: whitesmoke;
+
+    @media @phone{
+       .layout(center,center) 
+       flex-direction: column;
+    }
+    
+   
+   
+    h1{
+        color: @accent-color;
+        text-decoration: underline dotted;
+        
+       
+    }//ends h1
+    nav{
+        text-decoration: none;
+
+        a{
+            text-decoration: none;  
+            padding:1em;
+            font-size: 1.4rem;
+
+        }//ends a
+        
+     
+        
+    }//ends nav
+
+    .btn{
+        .layout(center,center);
+        
+
+        .btn1{
+            .layout(space-around,center);
+            padding:1em;
+
+            button{
+                .custBtn();
+            }//ends button
+        }//ends btn1
+
+        .btn2{
+            .layout(space-around,center);
+            padding:1em;
+            
+            button{
+                .custBtn();
+            }//ends button
+        }//ends btn1
+        
+    }//ends button
+
+    
+
+
+}//ends header
+
