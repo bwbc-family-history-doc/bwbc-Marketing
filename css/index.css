@@ -109,7 +109,7 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: circle;
 }
 blockquote,
 q {
@@ -240,7 +240,10 @@ header .btn .btn2 button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-image: url(../imgs/bigfamily.jpg);
+  background-attachment: fixed;
+  background-size: 1500px 700px;
+  background-repeat: no-repeat;
 }
 .top .stepsTop {
   display: flex;
@@ -249,19 +252,19 @@ header .btn .btn2 button:hover {
   flex-direction: column;
   width: 40%;
   padding-bottom: 1em;
+  width: 45%;
 }
 .top .stepsTop h2 {
-  color: #750E98;
-  background-color: whitesmoke;
-  padding: 0 1em;
+  color: whitesmoke;
+  padding-bottom: 1em;
 }
 .top .stepsTop ol {
   font-family: 'Abril Fatface';
   font-size: 1.2rem;
-  background-color: whitesmoke;
+  color: whitesmoke;
 }
 .top .stepsTop ol li {
-  padding-left: 10px;
+  padding-left: 15px;
   padding-bottom: 1em;
 }
 .top .stepsTop button {
@@ -284,9 +287,73 @@ header .btn .btn2 button:hover {
   color: whitesmoke;
   width: 40%;
   padding-left: 2em;
-  background-image: url(../imgs/bigfamily.jpg);
-  background-attachment: fixed;
-  background-size: 1500px 700px;
-  background-repeat: no-repeat;
-  opacity: 1.5;
+}
+.bottom {
+  background-color: whitesmoke;
+}
+.bottom .gp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 4px dotted whitesmoke;
+}
+.bottom p {
+  width: 40%;
+}
+.bottom .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+}
+.bottom .stepsBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  padding-bottom: 1em;
+  width: 45%;
+}
+.bottom .stepsBottom ol {
+  padding-left: 1.3em;
+  font-family: 'Abril Fatface';
+  font-size: 1.2rem;
+  color: #750E98;
+}
+.bottom .stepsBottom ol li {
+  padding-left: 15px;
+  padding-bottom: 1em;
+}
+.bottom .stepsBottom button {
+  background-color: #750E98;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.bottom .stepsBottom button:hover {
+  background-color: #FFC300;
+  color: 750E98;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+}
+footer nav {
+  text-decoration: none;
+}
+footer nav a {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.4rem;
 }
