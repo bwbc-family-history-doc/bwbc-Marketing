@@ -175,6 +175,13 @@ header {
   padding-bottom: 2em;
   background-color: whitesmoke;
 }
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 header h1 {
   color: #750E98;
   text-decoration: underline dotted;
